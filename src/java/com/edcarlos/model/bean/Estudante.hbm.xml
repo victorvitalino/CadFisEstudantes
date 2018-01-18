@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated May 9, 2017 9:05:59 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.edcarlos.model.bean.Estudante" table="estudante" catalog="cadfisestudantes" optimistic-lock="version">
+        <id name="estcodigo" type="java.lang.Integer">
+            <column name="estcodigo" />
+            <generator class="identity" />
+        </id>
+        <property name="estnome" type="string">
+            <column name="estnome" length="50" not-null="true" />
+        </property>
+        <property name="estsobrenome" type="string">
+            <column name="estsobrenome" length="80" not-null="true" />
+        </property>
+        <property name="estmassa" type="string">
+            <column name="estmassa" length="50" not-null="true" />
+        </property>
+        <property name="estaltura" type="string">
+            <column name="estaltura" length="50" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

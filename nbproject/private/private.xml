@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/adminn/NetBeansProjects/CadFisEstudantes/web/AlterarEstudante.jsp</file>
+            <file>file:/home/adminn/NetBeansProjects/CadFisEstudantes/web/home.jsp</file>
+            <file>file:/home/adminn/NetBeansProjects/CadFisEstudantes/web/error.jsp</file>
+            <file>file:/home/adminn/NetBeansProjects/CadFisEstudantes/src/java/com/edcarlos/model/dao/LoginDaoLocal.java</file>
+            <file>file:/home/adminn/NetBeansProjects/CadFisEstudantes/src/java/com/edcarlos/controller/LoginServlet.java</file>
+            <file>file:/home/adminn/NetBeansProjects/CadFisEstudantes/web/WEB-INF/web.xml</file>
+            <file>file:/home/adminn/NetBeansProjects/CadFisEstudantes/web/CadastroEstudante.jsp</file>
+            <file>file:/home/adminn/NetBeansProjects/CadFisEstudantes/src/java/com/edcarlos/controller/ControllerExcluirEstudante.java</file>
+            <file>file:/home/adminn/NetBeansProjects/CadFisEstudantes/src/java/com/edcarlos/model/dao/LoginDao.java</file>
+            <file>file:/home/adminn/NetBeansProjects/CadFisEstudantes/src/java/com/edcarlos/controller/ControllerEstudante.java</file>
+            <file>file:/home/adminn/NetBeansProjects/CadFisEstudantes/web/AlteradoSucesso.jsp</file>
+            <file>file:/home/adminn/NetBeansProjects/CadFisEstudantes/web/ExcluidoSucesso.jsp</file>
+            <file>file:/home/adminn/NetBeansProjects/CadFisEstudantes/src/java/com/edcarlos/controller/ControllerAlterarEstudante.java</file>
+            <file>file:/home/adminn/NetBeansProjects/CadFisEstudantes/web/index.html</file>
+            <file>file:/home/adminn/NetBeansProjects/CadFisEstudantes/web/ExcluirEstudante.jsp</file>
+            <file>file:/home/adminn/NetBeansProjects/CadFisEstudantes/web/login.jsp</file>
+            <file>file:/home/adminn/NetBeansProjects/CadFisEstudantes/web/erroDadosInvalidos.jsp</file>
+        </group>
+    </open-files>
+</project-private>

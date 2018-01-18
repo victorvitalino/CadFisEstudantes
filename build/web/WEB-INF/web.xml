@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>login.jsp</welcome-file>
+    </welcome-file-list>
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.edcarlos.controller.LoginServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ControllerEstudante</servlet-name>
+        <servlet-class>com.edcarlos.controller.ControllerEstudante</servlet-class>
+    </servlet>
+     <servlet>
+        <servlet-name>ControllerAlterarEstudante</servlet-name>
+        <servlet-class>com.edcarlos.controller.ControllerAlterarEstudante</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ControllerExcluirEstudante</servlet-name>
+        <servlet-class>com.edcarlos.controller.ControllerExcluirEstudante</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+     <servlet-mapping>
+        <servlet-name>ControllerEstudante</servlet-name>
+        <url-pattern>/ControllerEstudante</url-pattern>
+    </servlet-mapping>
+     <servlet-mapping>
+        <servlet-name>ControllerAlterarEstudante</servlet-name>
+        <url-pattern>/ControllerAlterarEstudante</url-pattern>
+    </servlet-mapping>
+     <servlet-mapping>
+        <servlet-name>ControllerExcluirEstudante</servlet-name>
+        <url-pattern>/ControllerExcluirEstudante</url-pattern>
+    </servlet-mapping>
+</web-app>
